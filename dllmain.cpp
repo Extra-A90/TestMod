@@ -18,7 +18,7 @@ void Hook(HINSTANCE hModule) {
 
 	uintptr_t moduleBase = (uintptr_t)GetModuleHandleW(L"Minecraft.Windows.exe");
 
-	CreateDebugConsole(L"AscendencyPRO");
+	CreateDebugConsole(L"Debug");
 
 	if (MH_Initialize() == MH_OK)
 	{
